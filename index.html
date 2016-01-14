@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>AnJazz</title>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+
+
+	<script type="text/javascript" src="javascript/jquery.js"></script>
+	<script type="text/javascript" src="javascript/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="javascript/custom.js"></script>
+<!--	<script type="text/javascript">jQuery.noConflict();</script>-->
+	
+	
+</head>
+
+<body>
+
+	<div class="page-container">
+	  
+		<!-- top navbar -->
+	    <div class="navbar navbar-default navbar-fixed-top visible-xs-block" role="navigation">
+	       <div class="container">
+	    	<div class="navbar-header">
+	           <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".sidebar-nav">
+	             <span class="icon-bar"></span>
+	             <span class="icon-bar"></span>
+	             <span class="icon-bar"></span>
+	           </button>
+	           <a class="navbar-brand" href="#">Logo</a>
+	    	</div>
+	       </div>
+	    </div>
+	      
+	    <div class="">
+	      <div class="row row-offcanvas row-offcanvas-left visible-xs-block">
+	        <!-- sidebar -->
+	        <div class="col-xs-8 col-sm-4 sidebar-offcanvas" id="sidebar" role="navigation">
+	            <ul class="nav">
+	              <li class="active"><a href="#">Nyheter</a></li>
+	              <li><a href="article.html">Artister</a></li>
+	              <li><a href="#">Program</a></li>
+	              <li><a href="#">Billetter</a></li>
+	              <li><a href="#">Info</a></li>
+	              <li><a href="#">Galleri</a></li>              
+	            </ul>
+	        </div>
+	  	  </div>
+	        <!-- main area -->
+
+	   <div class="container">
+		<!-- Stack the columns on mobile by making one full-width and the other half-width -->
+		<div id="">
+		
+		<aside class="col-sm-3 hidden-xs">
+			<div class="fixed">
+				<div class="logo">
+				  <h1>Logo</h1>
+				</div>
+				<div class="banner"><h3>4.–7. mai 2016</h3></div>
+				<div class="meny">
+					  <a class="logo" href="">Nyheter</a><br />
+					  <a href="article.html">Artister</a><br />
+					  <a href="http://">Program</a><br />
+					  <a href="http://">Billetter</a><br />
+					  <a href="http://">Info</a><br />
+					  <a href="http://">Galleri</a><br />
+					  <a href="http://">Arkiv</a>
+				</div>
+			</div>
+		</aside>
+		     
+		<div class="col-sm-9 col-xs-12 wrapper">
+				
+			<div class="col-md-4 fleks hidden-xs hidden-sm"><a href=""><div class="ads"><span>Kjøp billetter her!</span></div></a></div>
+			
+			<article class="col-md-8 blokk">
+				<a class="desaturate" href="article.html">
+					<img class="imgass a-stor" src="images/test/gporter.jpg"  alt="" />
+					<div class="text-container"><h1>Gregory Porter klar for AnJazz</h1><div class="">Les mer</div></div>
+				</a>
+			</article>
+			
+			<article class="col-md-4 blokk">
+				<a class="desaturate" href="article.html">
+					<img src="images/test/fay-liten.jpg" class="imgass a-liten" alt="" />
+					<div class="text-container"><h1>Fay Wildhagen spiller lørdag</h1><div class="">Les mer</div></div>
+				</a>
+			</article>
+		
+			<article class="col-md-8 blokk">
+				<a class="desaturate" href="article.html">
+				<img src="images/test/cecile.jpg" alt="" class="imgass a-stor" />
+				<div class="text-container"><h1>McLorin Salvant flyttet til fredag kl. 21:00</h1></div>
+				</a>
+			</article>
+			
+			<article class="col-md-8 blokk">
+				<a class="desaturate" href="article.html">
+				<img src="images/test/trio.jpg" alt="" class="imgass a-stor" />
+				<div class="text-container"><h1>Bilder fra torsdag</h1><div class="">Se galleri</div></div>
+				</a>
+			</article>
+	
+			<article class="col-md-4 blokk">
+				<a class="desaturate" href="article.html">
+				<img src="images/test/melissahorn.jpg" alt="" class="imgass a-liten" />
+				<div class="text-container"><h1>Headline</h1></div>
+				</a>
+			</article>
+	
+		</div>
+		
+		
+	  </div>
+	</div>
+	
+	<div class="container-fluid footer">
+		<div class="col-sm-9 col-md-offset-3 footer-content"><br />Footer: <br />Sponsorer<br />Copyright<br />Info</div>
+	</div>
+		
+  </div><!--/.container-->
+</div><!--/.page-container-->	
+
+	    <!-- Menu Toggle Script -->
+<script>
+	$(document).ready(function() {
+	  $('[data-toggle=offcanvas]').click(function() {
+	    $('.row-offcanvas').toggleClass('active');
+	  });
+	});
+</script>
+
+</body>
+
+</html>
